@@ -1,0 +1,8 @@
+<form>
+<h2>Serie hinzufügen:</h2>
+<div class="mb-2">
+<label for="newShowID">ID:</label>
+<input class="form-control" id="newShowID" name="newShowID" type="number" placeholder="Hier die ID der Serie eingeben!" [(ngModel)]="show.id">
+</div>
+<button type="submit" class="btn btn-primary" (click)="save()">absenden</button>
+</form>
