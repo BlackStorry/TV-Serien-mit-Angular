@@ -7,5 +7,6 @@ export class ShowDataService {
     this.shows.push(new Show(1, 'Paw Patrol'));
     this.shows.push(new Show(2, 'Navy Cis'));
     this.shows.push(new Show(3, 'Naruto'));
+    this.shows.push(new Show(4, 'Hinata'));
   }
 }
