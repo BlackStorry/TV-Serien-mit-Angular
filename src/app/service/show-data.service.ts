@@ -9,4 +9,7 @@ export class ShowDataService {
     this.shows.push(new Show(3, 'Naruto'));
     this.shows.push(new Show(4, 'Hinata'));
   }
+  saveShow(show: Show) {
+    this.shows.push(show);
+    }
 }
